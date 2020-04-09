@@ -1,8 +1,17 @@
 # react-typescript-template
 
-react.js で typescript などを使用した環境構築用のテンプレート。
+react+typescript などを使用した開発環境のテンプレート。
 
-以下の記事を参考に作成した。
+## Contains
+
+1. React
+2. TypeScript
+3. Webpack
+4. Eslint
+5. prettier
+6. storybook
+
+## Reference material
 
 [React を使ったモダンなフロントエンド開発の環境構築](https://qiita.com/toshi-toma/items/8ee55304f09b5840b9a4)
 
