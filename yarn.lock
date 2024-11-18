@@ -2656,10 +2656,10 @@
     regenerator-runtime "^0.13.7"
     util-deprecate "^1.0.2"
 
-"@storybook/components@8.4.2":
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-8.4.2.tgz#e9e7d5dfaef3e36a2654c6bfbd79aa5a4f307a20"
-  integrity sha512-+W59oF7D73LAxLNmCfFrfs98cH9pyNHK9HlJoO5/lKbK4IdWhhOoqUR/AJ3ueksoLuetFat4DxyE8SN1H4Bvrg==
+"@storybook/components@8.4.4":
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-8.4.4.tgz#487c5d89061519bd3f8f3dcb7cbf052d032ea744"
+  integrity sha512-0BSZVmsk23C0BSRKx3liZSVQFXtoF86XQFdNQxjrXIwdHIEN7TcL3DwcxeVUU5ilGp7HeDgAydGNIPGgTeEe6g==
 
 "@storybook/core-client@6.5.16":
   version "6.5.16"
@@ -2902,10 +2902,10 @@
     telejson "^7.2.0"
     ts-dedent "^2.0.0"
 
-"@storybook/manager-api@8.4.2":
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-8.4.2.tgz#6bf972accfa6339034b50a7338654ad433aac6d1"
-  integrity sha512-rhPc4cgQDKDH8NUyRh/ZaJW7QIhR/PO5MNX4xc+vz71sM2nO7ONA/FrgLtCuu4SULdwilEPvGefYvLK0dE+Caw==
+"@storybook/manager-api@8.4.4":
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-8.4.4.tgz#ea3e134d7cc5a91ef82d95601206eb839e34c631"
+  integrity sha512-rmNPcbEyzakEHoaecUbhkW7WWOkyZ0z7ywH4d5/s0ZuQS57Px2N+ZLVgRJwYK+YNHiJYqDf1BTln9YJ/Mt1L6Q==
 
 "@storybook/manager-webpack4@6.5.16":
   version "6.5.16"
@@ -3019,10 +3019,10 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview-api@8.4.2":
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-8.4.2.tgz#77640e16c8662b9aa3a9dd4ec1b7362b9b4f6b3f"
-  integrity sha512-5X/xvIvDPaWJKUBCo5zVeBbbjkhnwcI2KPkuOgrHVRRhuQ5WqD0RYxVtOOFNyQXme7g0nNl5RFNgvT7qv9qGeg==
+"@storybook/preview-api@8.4.4":
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-8.4.4.tgz#bcfde521927406f9c37744f5cc959c54bf268a92"
+  integrity sha512-iZrWQcjRBqBHFdDXVxGpw6mHBZMCMYqhWXdyJ0d1S2y3PwcfOjkcXlQ1UiAenFHlA6dKrcYw8luKUQTL9bKReA==
 
 "@storybook/preview-web@6.5.16":
   version "6.5.16"
@@ -3059,22 +3059,22 @@
     react-docgen-typescript "^2.1.1"
     tslib "^2.0.0"
 
-"@storybook/react-dom-shim@8.4.2":
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.4.2.tgz#cefc4b2cb7d3f632492867a3d5edbf568418c66a"
-  integrity sha512-FZVTM1f34FpGnf6e3MDIKkz05gmn8H9wEccvQAgr8pEFe8VWfrpVWeUrmatSAfgrCMNXYC1avDend8UX6IM8Fg==
+"@storybook/react-dom-shim@8.4.4":
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.4.4.tgz#7ea45d7760a49648829e3be70866c7a52bf6ab16"
+  integrity sha512-kufv2FDK3kjADBo+/aKHsUn9T5E4p9IBAmCoIvXBGRDumPRds7Pt3MB4ODKlg+IumR7LMEq0jTJkn27ZRTuUmw==
 
-"@storybook/react@*", "@storybook/react@^8.4.2":
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.4.2.tgz#a8d61902e0b72e99e96dfde4251eb0ce79249905"
-  integrity sha512-rO5/aVKBVhIKENcL7G8ud4QKC5OyWBPCkJIvY6XUHIuhErJy9/4pP+sZ85jypVwx5kq+EqCPF8AEOWjIxB/4/Q==
+"@storybook/react@*", "@storybook/react@^8.4.4":
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.4.4.tgz#f456a904e1afea780b08cdfc6827618e8badf250"
+  integrity sha512-92lGnRcAI2qW6zH8GMBScyXmOS1ANI8ZuSP4ExQj+lGsCrAr7PBr0wuHy3wIn1YyAvQGPUn/mpYrmMz08c2HfA==
   dependencies:
-    "@storybook/components" "8.4.2"
+    "@storybook/components" "8.4.4"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "8.4.2"
-    "@storybook/preview-api" "8.4.2"
-    "@storybook/react-dom-shim" "8.4.2"
-    "@storybook/theming" "8.4.2"
+    "@storybook/manager-api" "8.4.4"
+    "@storybook/preview-api" "8.4.4"
+    "@storybook/react-dom-shim" "8.4.4"
+    "@storybook/theming" "8.4.4"
 
 "@storybook/react@^6.5.9":
   version "6.5.16"
@@ -3247,10 +3247,10 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@8.4.2":
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.4.2.tgz#0e385869a225040e326cfba301b6cdccd31dcb21"
-  integrity sha512-9j4fnu5LcV+qSs1rdwf61Bt14lms0T1LOZkHxGNcS1c1oH+cPS+sxECh2lxtni+mvOAHUlBs9pKhVZzRPdWpvg==
+"@storybook/theming@8.4.4":
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.4.4.tgz#3d209a235bf2b6f5543f1eebe78244f0104811b5"
+  integrity sha512-iq4yt3Fx35ZV5owNC//E6G+QPV19xHHVN2Ugi3p7KOSFK3chuXX9mxZ1rfir+t+U30a5EPOEnlsY3/1LXn7aTw==
 
 "@storybook/types@7.6.17":
   version "7.6.17"
