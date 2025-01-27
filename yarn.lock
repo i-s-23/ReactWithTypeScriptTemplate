@@ -2358,12 +2358,12 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storysource@^8.4.7":
-  version "8.4.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.4.7.tgz#4e07961307752662c163cc2f713e4436dd4c69d0"
-  integrity sha512-ckMSiVf+8V3IVN3lTdzCdToXVoGhZ57pwMv0OpkdVIEn6sqHFHwHrOYiXpF3SXTicwayjylcL1JXTGoBFFDVOQ==
+"@storybook/addon-storysource@^8.5.1":
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.5.1.tgz#8a5d5452d2fc3633e3b6e32751786debecf6de10"
+  integrity sha512-P5GplAI9niIc67UHHmmdfU0IGDE02eskRV/skl1wzH8EMpRB8JoSFvldRn+4jdKYtnoqSgQCy9YvPy0iBrPpwA==
   dependencies:
-    "@storybook/source-loader" "8.4.7"
+    "@storybook/source-loader" "8.5.1"
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
@@ -2857,6 +2857,13 @@
   dependencies:
     lodash "^4.17.15"
 
+"@storybook/csf@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@storybook/csf/-/csf-0.1.12.tgz#1dcfa0f398a69b834c563884b5f747db3d5a81df"
+  integrity sha512-9/exVhabisyIVL0VxTCxo01Tdm8wefIXKXfltAPTSr8cbLn5JAxGQ6QV3mjdecLGEOucfoVhAKtJfVHxEK1iqw==
+  dependencies:
+    type-fest "^2.19.0"
+
 "@storybook/csf@^0.1.11", "@storybook/csf@^0.1.2":
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/csf/-/csf-0.1.11.tgz#ad685a4fe564a47a6b73571c2e7c07b526f4f71b"
@@ -3160,12 +3167,12 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@8.4.7":
-  version "8.4.7"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.4.7.tgz#c41f213c8e6440a310d5e616353b3266d2b56b56"
-  integrity sha512-DrsYGGfNbbqlMzkhbLoNyNqrPa4QIkZ6O7FJ8Z/8jWb0cerQH2N6JW6k12ZnXgs8dO2Z33+iSEDIV8odh0E0PA==
+"@storybook/source-loader@8.5.1":
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.5.1.tgz#30d69cc709b7ad194fce8be2922f80090e375489"
+  integrity sha512-+q8eMXNRC2GRBE7zLFXjfd7YWSxAZVcFWApMxRBJYGJsM6l0ll/4t/yGN53XYagGJGXzqFjqy66MSi2JHCx00Q==
   dependencies:
-    "@storybook/csf" "^0.1.11"
+    "@storybook/csf" "0.1.12"
     es-toolkit "^1.22.0"
     estraverse "^5.2.0"
     prettier "^3.1.1"
