@@ -2369,13 +2369,12 @@
     react-lifecycles-compat "^3.0.4"
     react-select "^5.7.0"
 
-"@storybook/addon-links@^8.6.12":
-  version "8.6.12"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.6.12.tgz#e4eb188f5ba64017a70c1ff3fbcef0b67fcebab4"
-  integrity sha512-AfKujFHoAxhxq4yu+6NwylltS9lf5MPs1eLLXvOlwo3l7Y/c68OdxJ7j68vLQhs9H173WVYjKyjbjFxJWf/YYg==
+"@storybook/addon-links@^9.0.5":
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-9.0.5.tgz#f61cc2597d2e20d52e15999b428c68ca35408b8f"
+  integrity sha512-IIuj7F4g/JDeaBY0GeLDze65/MbrNHm+fiE1nt7tnBUSA/g3NAoh4KaFgLCtz4Y9XVRuq8UCRSr4w0loO77+Ag==
   dependencies:
     "@storybook/global" "^5.0.0"
-    ts-dedent "^2.0.0"
 
 "@storybook/addon-storysource@^8.6.12":
   version "8.6.12"
