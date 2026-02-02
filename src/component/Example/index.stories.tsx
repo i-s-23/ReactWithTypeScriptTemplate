@@ -1,22 +1,24 @@
-import React from "react";
-
-import { storiesOf } from "@storybook/react";
-import { withInfo } from "@storybook/addon-info";
-import { withA11y } from "@storybook/addon-a11y";
-import { withKnobs, text, boolean } from "@storybook/addon-knobs";
-import { action } from "@storybook/addon-actions";
-
+import type { Meta, StoryObj } from "@storybook/react-webpack5";
 import Example from ".";
 
-const components = storiesOf("Components", module);
-components
-  .addDecorator(withKnobs)
-  .addDecorator(withA11y)
-  .addDecorator(withInfo({ inline: true }))
-  .add("Example", () => (
-    <Example
-      text={text("テキスト", "ああああ")}
-      flag={boolean("テキスト表示", true)}
-      action={action("ぽちっとな")}
-    />
-  ));
+const meta: Meta<typeof Example> = {
+  title: "Components/Example",
+  component: Example,
+  tags: ['autodocs'],
+  argTypes: {
+    text: { control: "text" },
+    flag: { control: "boolean" },
+  },
+};
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const Default: Story = {
+  args: {
+    text: "ああああ",
+    flag: true,
+    action: () => {},
+  },
+};
+
