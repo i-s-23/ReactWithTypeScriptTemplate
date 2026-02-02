@@ -36,49 +36,26 @@ pnpm storybook
 
 ```bash
 .
-├── .devcontainer/
-├── .storybook/
-├── src/
-│   ├── App.tsx
-│   ├── index.tsx
-│   ├── component/
-│   │   └── Example/
-│   │       ├── index.stories.tsx
-│   │       └── index.tsx
-│   └── stories/
-│       ├── Button.tsx
-│       ├── Button.stories.ts
-│       ├── Header.tsx
-│       ├── Header.stories.ts
-│       ├── Page.tsx
-│       ├── Page.stories.ts
-│       └── assets/
-├── Dockerfile
-├── package.json
-├── README.md
-├── tsconfig.json
-├── webpack.config.js
-└── 脆弱性アップグレードメモ.md
+├── .devcontainer/: **DevContainer の設定ファイル群**。VS Code Dev Containers を使用して、開発環境の構築と設定を定義
+├── .storybook/: **Storybook の設定ファイル群**。`main.ts` や `preview.ts` など、Storybook の動作やアドオンをカスタマイズするためのファイルが含む
+├── src/: **アプリケーションのソースコードが配置される主要なディレクトリ**
+│   ├── App.tsx: **アプリケーションのルートコンポーネント**。ここで定義された内容がブラウザに表示されるアプリケーションの基盤になる
+│   ├── index.tsx: **アプリケーションのエントリポイント**。`App.tsx` コンポーネントをブラウザの DOM にマウントし、React アプリケーションを起動する
+│   ├── component/: **再利用可能なコンポーネントが配置されるディレクトリ**
+│   │   └── Example/: 例として作成されたコンポーネントのディレクトリ
+│   │       ├── index.stories.tsx: `Example` コンポーネントの Storybook ストーリー定義。コンポーネントの異なる状態を視覚的に確認可能
+│   │       └── index.tsx: `Example` コンポーネント本体のソースコードです。
+│   └── stories/: **Storybook の初期化時に生成されたサンプルストーリーとコンポーネント**が配置される。これらは Storybook の使い方の参考用
+│       ├── Button.tsx: サンプルとして提供される UI コンポーネント
+│       ├── Button.stories.ts: サンプルコンポーネントの Storybook ストーリー定義
+│       ├── Header.tsx: サンプルとして提供される UI コンポーネント
+│       ├── Header.stories.ts: サンプルコンポーネントの Storybook ストーリー定義
+│       ├── Page.tsx: サンプルとして提供される UI コンポーネント
+│       ├── Page.stories.ts: サンプルコンポーネントの Storybook ストーリー定義
+│       └── assets/: サンプルストーリーで使用されるアセット（画像など）
+├── Dockerfile: **Docker コンテナのビルド手順を定義するファイル**です。開発環境や本番環境をコンテナ化する際に使用される
+├── package.json: **プロジェクトのメタデータ、依存関係、およびスクリプトを定義するファイル**。`pnpm install` コマンドでインストールされるパッケージや、`pnpm start` のような実行コマンドがここに記述される
+├── README.md: **プロジェクトの概要、セットアップ方法、使い方、貢献方法などを記述するファイル**。プロジェクトの顔となる重要なドキュメント
+├── tsconfig.json: **TypeScript コンパイラの設定ファイル**。TypeScript コードを JavaScript にコンパイルする際のルールやオプションを定義している
+└── webpack.config.js: **Webpack の設定ファイル**。アプリケーションのソースコードをバンドルし、ブラウザで実行可能な形式に変換する方法を定義している
 ```
-
-### 各ディレクトリ・ファイルの役割
-
-- `.devcontainer/`: **DevContainer の設定ファイル群**。VS Code Dev Containers を使用して、開発環境の構築と設定を定義します。
-- `.storybook/`: **Storybook の設定ファイル群**。`main.ts` や `preview.ts` など、Storybook の動作やアドオンをカスタマイズするためのファイルが含まれます。
-- `src/`: **アプリケーションのソースコードが配置される主要なディレクトリ**です。
-  - `src/App.tsx`: **アプリケーションのルートコンポーネント**。ここで定義された内容がブラウザに表示されるアプリケーションの基盤となります。
-  - `src/index.tsx`: **アプリケーションのエントリポイント**。`App.tsx` コンポーネントをブラウザの DOM にマウントし、React アプリケーションを起動します。
-  - `src/component/`: **再利用可能なコンポーネントが配置されるディレクトリ**です。
-    - `src/component/Example/`: 例として作成されたコンポーネントのディレクトリです。
-      - `src/component/Example/index.stories.tsx`: `Example` コンポーネントの Storybook ストーリー定義。コンポーネントの異なる状態を視覚的に確認できます。
-      - `src/component/Example/index.tsx`: `Example` コンポーネント本体のソースコードです。
-  - `src/stories/`: **Storybook の初期化時に生成されたサンプルストーリーとコンポーネント**が配置されます。これらは Storybook の使い方を学ぶための良い参考になります。
-    - `src/stories/Button.tsx`, `Header.tsx`, `Page.tsx`: サンプルとして提供される UI コンポーネントです。
-    - `src/stories/Button.stories.ts`, `Header.stories.ts`, `Page.stories.ts`: サンプルコンポーネントの Storybook ストーリー定義です。
-    - `src/stories/assets/`: サンプルストーリーで使用されるアセット（画像など）が配置されます。
-- `Dockerfile`: **Docker コンテナのビルド手順を定義するファイル**です。開発環境や本番環境をコンテナ化する際に使用されます。
-- `package.json`: **プロジェクトのメタデータ、依存関係、およびスクリプトを定義するファイル**です。`pnpm install` コマンドでインストールされるパッケージや、`pnpm start` のような実行コマンドがここに記述されます。
-- `README.md`: **プロジェクトの概要、セットアップ方法、使い方、貢献方法などを記述するファイル**です。プロジェクトの顔となる重要なドキュメントです。
-- `tsconfig.json`: **TypeScript コンパイラの設定ファイル**です。TypeScript コードを JavaScript にコンパイルする際のルールやオプションを定義します。
-- `webpack.config.js`: **Webpack の設定ファイル**です。アプリケーションのソースコードをバンドルし、ブラウザで実行可能な形式に変換する方法を定義します。
-- `脆弱性アップグレードメモ.md`: **脆弱性に関するメモ**が記載されたファイルです。セキュリティ関連の重要な情報が記録されています。
