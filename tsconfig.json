@@ -5,7 +5,7 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "lib": ["esnext", "dom"],
-    "jsx": "react",
+    "jsx": "react-jsx",
     "strict": true,
     "rootDirs": ["src"],
     "esModuleInterop": true,
