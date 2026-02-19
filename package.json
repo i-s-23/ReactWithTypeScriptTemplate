@@ -33,7 +33,7 @@
     "babel-loader": "^10.0.0",
     "eslint": "^9.39.2",
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",
-    "eslint-plugin-storybook": "10.2.8",
+    "eslint-plugin-storybook": "10.2.9",
     "prettier": "^3.8.1",
     "react-docgen-typescript-loader": "^3.7.2",
     "ts-loader": "^9.5.4",
