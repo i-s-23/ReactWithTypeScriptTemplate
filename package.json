@@ -36,7 +36,7 @@
     "eslint-plugin-storybook": "10.4.6",
     "prettier": "^3.8.4",
     "react-docgen-typescript-loader": "^3.7.2",
-    "ts-loader": "^9.6.1",
+    "ts-loader": "^9.6.2",
     "typescript": "^6.0.3",
     "webpack": "^5.108.1",
     "webpack-cli": "^7.1.0",
