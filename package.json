@@ -42,7 +42,7 @@
     "webpack-cli": "^7.2.2",
     "webpack-dev-server": "^6.0.0",
     "storybook": "^10.5.10",
-    "@storybook/react-webpack5": "^10.5.8",
+    "@storybook/react-webpack5": "^10.5.10",
     "@storybook/addon-webpack5-compiler-swc": "^4.0.3",
     "@storybook/addon-a11y": "^10.5.8",
     "@storybook/addon-docs": "^10.5.10"
