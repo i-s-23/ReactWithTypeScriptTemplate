@@ -23,7 +23,7 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@babel/core": "^8.0.10",
+    "@babel/core": "^8.1.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
